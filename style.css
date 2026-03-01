@@ -1,19 +1,15 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0 16px;
+  font-family: 'Roboto', Arial, sans-serif;
   color: #222;
+  margin: 0;
 }
-nav {
-  padding: 12px 0;
-  border-bottom: 1px solid #ddd;
+.hero {
+  height: 60vh;
+  background: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://substackcdn.com/image/fetch/https://bucketeer-e05bbc84...') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-main {
-  padding: 24px 0;
-}
-footer {
-  margin-top: 40px;
-  padding: 12px 0;
-  border-top: 1px solid #ddd;
-  text-align: center;
+.hero h1, .hero p {
+  color: white;
 }

@@ -1,8 +1,8 @@
-# Commit 1 — Project init
+# Commit 2 — Add Bootstrap + hero
 
-What this commit contains:
-- Basic skeleton files for index.html, about.html, courses.html, contact.html, register.html
-- A minimal style.css
-- Basic navigation links (using corrected filename `index.html`)
+What changed:
+- Added Bootstrap and Google font links.
+- Implemented a navbar and hero on index.html.
+- Other pages updated to use consistent header and footer.
 
-Commit message suggestion: "Init: add basic HTML skeletons and style.css"
+Commit message suggestion: "Add Bootstrap and hero section; unified header/footer"
