@@ -1,7 +1,7 @@
-# Commit 5 — About page: mission & team
+# Commit 6 — Contact form + validation
 
 What changed:
-- Added Mission section to about.html.
-- Added Team cards with images and basic styling.
+- Added a full contact form with client-side validation and success alert.
+- Added contact information panel.
 
-Commit message suggestion: "Add about page mission and team section"
+Commit message suggestion: "Add contact form with client-side validation"
