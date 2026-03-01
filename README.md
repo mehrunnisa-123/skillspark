@@ -1,8 +1,7 @@
-# Commit 3 — Add features & course cards
+# Commit 5 — About page: mission & team
 
 What changed:
-- Added a "Features" section on index.html with three cards.
-- Added basic course cards on courses.html.
-- Minor style updates for cards.
+- Added Mission section to about.html.
+- Added Team cards with images and basic styling.
 
-Commit message suggestion: "Add features section and course cards"
+Commit message suggestion: "Add about page mission and team section"

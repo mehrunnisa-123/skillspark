@@ -2,6 +2,15 @@ body {
 	font-family: 'Roboto', sans-serif; 
 	margin:0; color:#222; 
 }
+.team-img { 
+	width: 150px; 
+	height:150px; object-fit:cover; 
+	transition: transform .25s; 
+	border-radius:50%; 
+}
+.team-img:hover { 
+	transform: scale(1.05); 
+}
 .course-card { 
 	border-radius: 12px; 
 	overflow: hidden; 
