@@ -4,12 +4,20 @@ body {
   margin: 0;
 }
 .hero {
-  height: 60vh;
-  background: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://substackcdn.com/image/fetch/https://bucketeer-e05bbc84...') center/cover no-repeat;
+  height: 55vh;
+  background: linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://substackcdn.com/image/fetch/https://bucketeer-e05bbc84...') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.hero h1, .hero p {
-  color: white;
+.feature-card {
+  border-radius: 12px;
+  transition: transform .25s;
+}
+.feature-card:hover {
+  transform: translateY(-6px);
+}
+.course-card img {
+  max-height: 160px;
+  object-fit: cover;
 }
