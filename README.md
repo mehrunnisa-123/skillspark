@@ -1,8 +1,12 @@
-# Commit 11 — JS enhancements (carousel + UI improvements)
+# SkillSpark — Final Submission (Commit 12)
 
-What changed:
-- Added testimonial carousel to index using Bootstrap carousel.
-- Added a "scroll to top" button with JS toggle.
-- Ensured form behavior remains consistent.
+This final commit contains the completed site files:
 
-Commit message suggestion: "Add testimonial carousel and UI enhancements (scroll-to-top)"
+Files included:
+- index.html (final homepage with hero, features, impact, timeline, testimonials)
+- about.html (mission + team)
+- courses.html (course cards, pricing badges, modals)
+- contact.html (contact form with validation and map)
+- register.html (registration form)
+- style.css (final consolidated styles)
+- README.md (this file)

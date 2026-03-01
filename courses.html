@@ -6,22 +6,172 @@
   <meta name="description" content="SkillSpark courses: Web Development, App Development, UI/UX, AI & Data Science." />
   <title>SkillSpark – Courses</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-  <nav class="navbar navbar-dark bg-dark" role="navigation">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">SkillSpark</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">SkillSpark</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCourses">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navCourses" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <main class="container py-5" role="main">
-    <h2 class="mb-4">Our Courses</h2>
-    <!-- course cards unchanged -->
+  <main class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Courses</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card course-card p-3 h-100">
+            <div class="position-relative">
+              <span class="badge bg-primary position-absolute top-0 end-0 m-2">$99</span>
+              <img src="https://www.4cpl.tech/ast/uploads/2023/06/Web-Development.jpg" class="card-img-top" alt="Web Development">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Web Development</h5>
+              <button class="btn btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#courseModal1">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card p-3 h-100">
+            <div class="position-relative">
+              <span class="badge bg-success position-absolute top-0 end-0 m-2">$120</span>
+              <img src="https://www.rishabhsoft.com/wp-content/uploads/2018/07/Android-App-Development-Process-1.jpg" class="card-img-top" alt="App Development">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">App Development</h5>
+              <button class="btn btn-outline-success mt-3" data-bs-toggle="modal" data-bs-target="#courseModal2">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card p-3 h-100">
+            <div class="position-relative">
+              <span class="badge bg-danger position-absolute top-0 end-0 m-2">$80</span>
+              <img src="https://blog.pwskills.com/wp-content/uploads/2025/04/ui-ux-design-examples.jpg" class="card-img-top" alt="UI/UX Design">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">UI/UX Design</h5>
+              <button class="btn btn-outline-danger mt-3" data-bs-toggle="modal" data-bs-target="#courseModal3">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- additional course cards -->
+        <div class="col-md-4">
+          <div class="card course-card p-3 h-100">
+            <div class="position-relative">
+              <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">$150</span>
+              <img src="https://btit.nz/sites/default/files/inline-images/ai%20banner%202.jpg" class="card-img-top" alt="AI & Data Science">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">AI & Data Science</h5>
+              <button class="btn btn-outline-warning mt-3" data-bs-toggle="modal" data-bs-target="#courseModal4">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card p-3 h-100">
+            <div class="position-relative">
+              <span class="badge bg-info text-dark position-absolute top-0 end-0 m-2">$110</span>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKs_IWvJ1MdQgp7xGlhntYGX8dUj0UiG5Xow&s" class="card-img-top" alt="Python Programming">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Python Programming</h5>
+              <button class="btn btn-outline-info mt-3" data-bs-toggle="modal" data-bs-target="#courseModal5">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card course-card p-3 h-100">
+            <div class="position-relative">
+              <span class="badge bg-secondary position-absolute top-0 end-0 m-2">$130</span>
+              <img src="https://www.janets.org.uk/wp-content/uploads/2023/09/JavaScript-Advanced-Training.webp" class="card-img-top" alt="JavaScript Advanced">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">JavaScript Advanced</h5>
+              <button class="btn btn-outline-secondary mt-3" data-bs-toggle="modal" data-bs-target="#courseModal6">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </main>
 
-  <footer class="text-center py-3" role="contentinfo">
-    <small>&copy; 2026 SkillSpark</small>
+  <!-- Course Modals -->
+  <div class="modal fade" id="courseModal1" tabindex="-1">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">Web Development</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body">Learn HTML, CSS, JavaScript, and build modern responsive websites from scratch.</div>
+      <div class="modal-footer"><button type="button" class="btn btn-primary">Enroll Now</button></div>
+    </div></div>
+  </div>
+
+  <div class="modal fade" id="courseModal2" tabindex="-1">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">App Development</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body">Learn to build mobile apps with Flutter and React Native for both Android and iOS.</div>
+      <div class="modal-footer"><button type="button" class="btn btn-success">Enroll Now</button></div>
+    </div></div>
+  </div>
+
+  <div class="modal fade" id="courseModal3" tabindex="-1">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">UI/UX Design</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body">Master Figma, Adobe XD, and design beautiful user interfaces and experiences.</div>
+      <div class="modal-footer"><button type="button" class="btn btn-danger">Enroll Now</button></div>
+    </div></div>
+  </div>
+
+  <div class="modal fade" id="courseModal4" tabindex="-1">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">AI & Data Science</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body">Learn Python, Machine Learning, AI models, and Data Science fundamentals with projects.</div>
+      <div class="modal-footer"><button type="button" class="btn btn-warning">Enroll Now</button></div>
+    </div></div>
+  </div>
+
+  <div class="modal fade" id="courseModal5" tabindex="-1">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">Python Programming</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body">Learn Python programming with projects, automation, and web development applications.</div>
+      <div class="modal-footer"><button type="button" class="btn btn-info">Enroll Now</button></div>
+    </div></div>
+  </div>
+
+  <div class="modal fade" id="courseModal6" tabindex="-1">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">JavaScript Advanced</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body">Deep dive into JavaScript frameworks, ES6+, and build advanced web applications.</div>
+      <div class="modal-footer"><button type="button" class="btn btn-secondary">Enroll Now</button></div>
+    </div></div>
+  </div>
+
+  <footer class="text-center mt-5">
+    <div class="container">
+      <p>Follow us on social media:</p>
+      <a href="#" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+      <p class="mt-3">&copy; 2026 SkillSpark. All rights reserved.</p>
+    </div>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
