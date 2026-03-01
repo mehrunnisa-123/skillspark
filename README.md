@@ -1,7 +1,6 @@
-# Commit 7 — Register form
+# Commit 8 — Impact / progress bars
 
 What changed:
-- Added a register form with name, email, and course select.
-- Client-side validation added and alert on submit.
+- Added an "Our Impact" section on index.html with progress bars for metrics.
 
-Commit message suggestion: "Add register form with client-side validation"
+Commit message suggestion: "Add impact section with progress bars"
