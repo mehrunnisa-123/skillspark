@@ -1,7 +1,8 @@
-# Commit 10 — Accessibility and SEO
+# Commit 11 — JS enhancements (carousel + UI improvements)
 
 What changed:
-- Added meta descriptions.
-- Added ARIA roles and improved semantic headings and attributes for accessibility.
+- Added testimonial carousel to index using Bootstrap carousel.
+- Added a "scroll to top" button with JS toggle.
+- Ensured form behavior remains consistent.
 
-Commit message suggestion: "Improve accessibility and SEO (meta descriptions, ARIA roles)"
+Commit message suggestion: "Add testimonial carousel and UI enhancements (scroll-to-top)"

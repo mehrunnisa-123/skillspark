@@ -88,3 +88,8 @@ form .form-control, form .form-select {
   max-height: 160px;
   object-fit: cover;
 }
+#toTop { 
+	z-index: 999; 
+	border-radius: 50%; 
+	padding: 10px 12px; 
+}
