@@ -1,6 +1,7 @@
-# Commit 8 — Impact / progress bars
+# Commit 9 — Milestones / Timeline
 
 What changed:
-- Added an "Our Impact" section on index.html with progress bars for metrics.
+- Added a vertical timeline showing project milestones on index.html.
+- CSS for timeline included.
 
-Commit message suggestion: "Add impact section with progress bars"
+Commit message suggestion: "Add milestones timeline"
