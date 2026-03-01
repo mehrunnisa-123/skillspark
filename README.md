@@ -1,7 +1,7 @@
-# Commit 6 — Contact form + validation
+# Commit 7 — Register form
 
 What changed:
-- Added a full contact form with client-side validation and success alert.
-- Added contact information panel.
+- Added a register form with name, email, and course select.
+- Client-side validation added and alert on submit.
 
-Commit message suggestion: "Add contact form with client-side validation"
+Commit message suggestion: "Add register form with client-side validation"
